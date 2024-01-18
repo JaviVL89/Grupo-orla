@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+    font-family: var(--Regular);
+    
+}
+
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/static/Montserrat-Regular.ttf') 
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../fonts/static/Montserrat-SemiBold.ttf') 
+}
+
+
+
+/*VARIABLES*/
+
+:root{
+    --Regular:Montserrat-Regular;
+    --SemiBold:Montserrat-SemiBold;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr,1fr,3fr;
+    grid-template-areas: "cab"
+                         "pro"
+                         "alu";   
+    background-color: #ffffff;
+    background-image: url("");
+}
+
+#cabecera {
+    grid-area: cab;
+    text-align: center;
+    margin: 2em;
+}
+
+#profesores {
+    grid-area: pro; 
+}
+
+
+#profesores, #alumnos {
+    grid-area: alu;
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      text-align: center;
+      margin-left: 10%;
+      margin-right: 10%;
+}
+
+
+.circle-video {
+    box-shadow: 1px -2px 15px 5px #C7D8D9;
+    border-radius: 60%;
+    margin: 1em;
+}
+ 
+#cabecera span {
+    margin-left: 2em;
+    margin-right: 2em;
+}
