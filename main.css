@@ -34,6 +34,7 @@ body {
     "alu";
   background-color: #ffffff;
   background-image: url("");
+  background-color: rgb(255, 255, 255);
 }
 
 #cabecera {
@@ -44,13 +45,11 @@ body {
   margin-right: 20%;
   margin-top: 20px;
   margin-bottom: 20px;
-
 }
 
 .logo {
   justify-self: center;
 }
-
 
 #profesores {
   grid-area: pro;
@@ -75,8 +74,8 @@ body {
   box-shadow: 1px -2px 15px 5px #c7d8d9;
   border-radius: 60%;
   margin: 1em;
-  height: 50%;
-  width: 50%;
+  height: 70%;
+  width: 70%;
 }
 
 #cabecera span {
@@ -84,5 +83,4 @@ body {
   font-size: 2em;
   margin-left: 1%;
   margin-top: 10%;
-  
 }
