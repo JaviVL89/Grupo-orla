@@ -35,7 +35,6 @@ body {
     "alu";
   background-color: lightcyan;
   background-image: url("");
-  background-color: rgb(255, 255, 255);
 }
 
 #cabecera {
@@ -88,7 +87,7 @@ body {
   margin: 1em;
   height: 70%;
   width: 70%;
-  background:linear-gradient(lightcyan,skyblue)
+  background: linear-gradient(lightcyan, skyblue);
 }
 
 #cabecera span {
