@@ -24,7 +24,7 @@
   --SemiBold: Montserrat-SemiBold;
 }
 
-.background{
+.background {
   position: relative;
   z-index: -1;
 }
@@ -42,14 +42,12 @@ body {
   background-color: rgb(223, 232, 232);
 }
 
-
-
 /*------------ CABECERA -----------*/
 
 #cabecera {
   grid-area: cab;
   display: grid;
-  grid-template-columns:repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   margin-left: 33%;
   margin-right: 33%;
   margin-top: 14px;
@@ -77,8 +75,6 @@ body {
   margin-top: 10%;
 }
 
-
-
 /*------------ CUERPO-----------*/
 
 #cuerpo {
@@ -93,7 +89,6 @@ body {
   margin-left: 13%;
   margin-right: 8%;
   margin-top: 23%;
-  
 }
 
 #profesores2 {
@@ -103,7 +98,6 @@ body {
   text-align: center;
   margin-left: 18%;
   margin-right: 13%;
-  
 }
 
 #alumnos {
@@ -113,7 +107,6 @@ body {
   text-align: center;
   margin-left: 13%;
   margin-right: 8%;
-  
 }
 
 .circle-video {
@@ -122,9 +115,7 @@ body {
   margin: 1em;
   height: 70%;
   width: 70%;
- /* background: linear-gradient(rgb(181, 184, 184), rgb(169, 198, 209));*/
-  
-  
+  /* background: linear-gradient(rgb(181, 184, 184), rgb(169, 198, 209));*/
 }
 
 p {
@@ -133,21 +124,18 @@ p {
 
 /*------ FOOTER -------*/
 
-#pie{
+#pie {
   grid-area: pie;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   margin-left: 37%;
   margin-right: 30%;
   margin-top: 7%;
-  position: absolute; 
+  position: absolute;
 }
-
 
 .promocion {
   text-align: center;
   font-size: 2em;
   margin-top: 10%;
 }
-
-
