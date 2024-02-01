@@ -50,7 +50,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: auto;
-  margin-top: 40rem;
+  margin-top: max(300px,25%);
   max-width: 600px;
   padding: 20px;
   position: relative;
@@ -124,6 +124,7 @@ background-attachment:local;
 /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
 
 background-size: cover;
+min-width:750px;
 }
 
 #profesores {
@@ -158,7 +159,7 @@ background-size: cover;
   text-align: center;
   margin-left: 13%;
   margin-right: 13%;
-  margin-bottom: 12%;
+  margin-bottom: max(100px,10%);
   row-gap: 60px;
 }
 
@@ -196,7 +197,7 @@ p {
   grid-template-columns: repeat(2, 1fr);
   margin: auto;
   margin-top: 1%;
-  margin-bottom: 40%;
+  margin-bottom: max(300px,25%);
   min-width: 300px;
   max-width: 600px;
   padding: 20px;
